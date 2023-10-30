@@ -1,0 +1,17 @@
+cria uma pasta para o projeto
+npm init -y --> preencher os campos de características do projeto
+instala as ferramentas que nos estamos utilizando -- express, mysql2, express-handlebars, sequelize, sequelize-cli -D
+--- sequelize-cli -D - dependência de desenvolvimento
+src - pasta raiz, onde vai ficar todo o código da aplicação
+
+underscord - nome composto separado com _
+timestamps - data e hora de modificação de tabela, informações
+
+migrations -- esqueleto das tabelas do banco de dados 
+     npx sequelize db:create - comando para criar o banco de dados no mysql2
+     npx sequelize db:migrate
+     npx sequelize db:migrate:undo:all
+
+redirect - redireciona para alguma rota já existente - coloca a prppria rota
+
+render - renderiza uma página - coloca 
